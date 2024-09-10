@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+  ..    <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/about.css">
+
+
+      <style>
+        /*             body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+         */
+        
+        /* Cover image styling */
+        .watch-cover {
+            position: relative;
+            width: 100%;
+            height: 80vh;
+            overflow: hidden;
+        }
+        
+        .watch-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .overlay .text {
+            color: #fff;
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            padding:3rem ;
+        }
+
+        .about__content{
+            text-align: center;
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+       
+        .about__content .topic{
+            font-size: 30px;
+            color: hsl(230, 70%, 16%);
+        }
+        .about__content .gapped{
+            line-height:2 ;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+        
+            .overlay .text {
+                font-size: 2rem;
+            }
+        }
+                  </style>
+
+      <title>About us</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav-container">
+            <a href="index.php" class="nav__logo">
+               <img src="assets/img/logo.png" alt="logo">E-WATCH
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="index.php" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span>Home</span>
+                     </a>
+                  </li>
+                  
+                  
+                  <li class="nav__item">
+                     <a href="./Menpage/index.html" class="nav__link">
+                        <i class="ri-home-line"></i>
+                        <span>Men</span>
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="./Womenpage/index.html" class="nav__link">
+                        <i class="ri-home-line"></i>
+                        <span>Women</span>
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="./Smatwatchpage/index.html" class="nav__link">
+                        <i class="ri-home-line"></i>
+                        <span>Smart Watches</span>
+                     </a>
+                  </li>
+                  
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+                <!-- serach button   -->
+               <i class="ri-search-line search-button " id="search-button"></i>
+
+               <!-- signup button -->
+               <a href="register.php"><i class="ri-user-add-line signup-button" id="signup-button"></i></a>
+
+               <!-- login button  -->
+               <a href="login.php"><i class="ri-user-line login-button" id="login-button"></i></a>
+
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you loooking for?" class="search__input">
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <div class="watch-cover">
+        <img src="assets/img/about.jpg" alt="Men's Watch">
+        <div class="overlay">
+            <div class="text">About Us </div>
+        </div>
+    </div>
+
+    <div class="about__content">
+        <p class="topic">Simple, stylish and locally</p> <br>
+<p class="gapped">
+E-watch is one of New York's fastest growing Watch Brand. It is an American brand with its <br> roots in New York.<br>
+All our watches are specially designed to give a sporty look, you have been looking for.<br>
+All our watches are made of Premium Quality materials and use Japanese Movements. <br>comes with multiple sports functions.<br><br>
+
+
+Launched in 2018 with an objective to cater to the growing need of watches in the<br> American market.<br>
+Within a span of 2 years we have launched more than 100 models in Digital ,Analog <br>Digital and Smart Watches
+catering to men and women of all age groups.<br><br>
+
+Our focus has been on giving better quality watches at reasonable prices.<br>
+What makes us different from other lower priced products in market is our superior<br> quality and trusted customer service.<br>
+All our watches our 100% water proof tested using the latest equipment.<br>
+
+Our goal is to be the leading brand in watches for all age groups in New York by<br> providing new<br>
+and innovative products and reliable customer service.
+        </p>
+    </div>
+         
+
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="index.php" class="footer__logo">
+               <img src="assets/img/logo.png" alt="logo">E-WATCH
+                  </a>
+               <p class="footer__description">
+                  Find and explore the best <br>
+                  watches crafted with precision  <br>
+                  and elegance.
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="" class="footer__link"> Awards</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">FAQs</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">Privacy policy</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">Terms of services</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Company</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="" class="footer__link"> Blogs</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link"> Community</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">Our team</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">Help Center</a>
+                     </li>
+                  </ul>
+               </div>
+
+               
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <address class="footer__info">
+                           e-watch,comany <br>
+                           Colombo 7
+                        </address>
+                     </li>
+
+                     <li>
+                        <address class="footer__info">
+                           e.watch@email.com <br>
+                           0117-654-321
+                        </address>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+
+                  <div class="footer__social">
+                     <a href=" https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+
+                     <a href=" https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+
+                     <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                     </a>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved | 2024
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/about.js"></script>
+   </body>
+</html>

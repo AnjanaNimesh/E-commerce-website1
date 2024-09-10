@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+  ..    <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="styles.css">
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+      <title>Men|Watch</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav-container">
+            <a href="" class="nav__logo">
+               <img src="logo.png" alt="logo">E-WATCH
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="../index.php" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span>Home</span>
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="index.html" class="nav__link">
+                        <i class="ri-home-line"></i>
+                        <span>Men</span>
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="../Womenpage/index.html" class="nav__link">
+                        <i class="ri-home-line"></i>
+                        <span>Women</span>
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="../Smatwatchpage/index.html" class="nav__link">
+                        <i class="ri-home-line"></i>
+                        <span>Smart Watches</span>
+                     </a>
+                  </li>
+                  
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+                <!-- serach button   -->
+               <i class="ri-search-line search-button " id="search-button"></i>
+
+               <!-- signup button -->
+               <a href="../register.php"><i class="ri-user-add-line signup-button" id="signup-button"></i></a>
+
+               <!-- login button  -->
+               <a href="../login.php"><i class="ri-user-line login-button" id="login-button"></i></a>
+
+               <div class="box">
+                  <span class="cart-count">0</span>
+                  <i class="ri-shopping-cart-line" name="cart" id="cart-icon"></i>
+                </div>
+          
+
+               <!-- theme button  -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you loooking for?" class="search__input">
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+    
+
+<!--==================== cover ====================-->
+
+      <div class="watch-cover">
+         <img src="pexels-raduz-10564-91904.jpg" alt="Men's Watch">
+         <div class="overlay">
+             <div class="text">Men Watch Collection</div>
+         </div>
+     </div>
+ 
+<!--         <div class="container">
+     
+     </div>
+-->
+      <!-- cart funtion -->
+
+
+      <div class="nav">
+
+         <div class="cart">
+           <div class="cart-title">Cart Items</div>
+           <div class="cart-content">
+           </div>
+           
+         <div class="total">
+           <div class="total-title">Total</div>
+           <div class="total-price">$0</div>
+         </div>
+   
+         <button class="btn-buy">Place Order</button>
+   
+         <ion-icon name="close" id="cart-close"></ion-icon>
+   
+         </div>
+       </div>
+     </header>
+     <div class="container">
+       <div class="shop-content">
+   
+   
+         <div class="food-box">
+           <div class="pic">
+             <img src="1.webp" class="food-img">
+           </div>
+           <h2 class="food-title">TISSOT CARSON PREMIUM</h2>
+           <span class="food-price">$312</span>
+           <ion-icon name="cart" class="add-cart"></ion-icon>
+         </div>
+   
+   
+         <div class="food-box">
+           <div class="pic"><img src="2.webp" class="food-img"></div>
+           <h2 class="food-title">TISSOT SEASTAR</h2>
+           <span class="food-price">$265</span>
+           <ion-icon name="cart" class="add-cart"></ion-icon>
+         </div>
+     
+         <div class="food-box">
+           <div class="pic"><img src="3.webp" class="food-img"></div>
+           <h2 class="food-title">TISSOT SEASTAR</h2>
+           <span class="food-price">$224</span>
+           <ion-icon name="cart" class="add-cart"></ion-icon>
+         </div>
+     
+         <div class="food-box">
+           <div class="pic"><img src="4.webp" class="food-img"></div>
+           <h2 class="food-title">TISSOT LE LOCLE POWERMATIC</h2>
+           <span class="food-price">$552</span>
+           <ion-icon name="cart" class="add-cart"></ion-icon>
+         </div>
+     
+         <div class="food-box">
+           <div class="pic"><img src="5.webp" class="food-img"></div>
+           <h2 class="food-title">RADO COUPOLE CLASSIC</h2>
+           <span class="food-price">$258</span>
+           <ion-icon name="cart" class="add-cart"></ion-icon>
+         </div>
+     
+         <div class="food-box">
+           <div class="pic"><img src="6.webp" class="food-img"></div>
+           <h2 class="food-title">RADO HYPERCHROME CLASSIC</h2>
+           <span class="food-price">$154</span>
+           <ion-icon name="cart" class="add-cart"></ion-icon>
+         </div>
+     
+     
+         <div class="food-box">
+           <div class="pic"><img src="7.webp" class="food-img"></div>
+           <h2 class="food-title">RADO TRUE AUTOMATIC</h2>
+           <span class="food-price">$650</span>
+           <ion-icon name="cart" class="add-cart"></ion-icon>
+         </div>
+     
+     
+         <div class="food-box">
+           <div class="pic"><img src="8.webp" class="food-img"></div>
+           <h2 class="food-title">RADO D-STAR</h2>
+           <span class="food-price">$265</span>
+           <ion-icon name="cart" class="add-cart"></ion-icon>
+         </div>
+     
+   
+   
+       </div>
+     </div>
+
+
+  
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="../index.php" class="footer__logo">
+               <img src="logo.png" alt="logo">E-WATCH
+                  </a>
+               <p class="footer__description">                  Find and explore the best <br>
+                  watches crafted with precision  <br>
+                  and elegance.
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="" class="footer__link"> Awards</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">FAQs</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">Privacy policy</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">Terms of services</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Company</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="" class="footer__link"> Blogs</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link"> Community</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">Our team</a>
+                     </li>
+
+                     <li>
+                        <a href="" class="footer__link">Help Center</a>
+                     </li>
+                  </ul>
+               </div>
+
+               
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <address class="footer__info">
+                           e-watch,comany <br>
+                           Colombo 7
+                        </address>
+                     </li>
+
+                     <li>
+                        <address class="footer__info">
+                           e.watch@email.com <br>
+                           0117-654-321
+                        </address>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+
+                  <div class="footer__social">
+                     <a href=" https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+
+                     <a href=" https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+
+                     <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                     </a>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved | 2024
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="main.js"></script>
+   </body>
+</html>
